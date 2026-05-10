@@ -92,6 +92,3 @@ A aplicação mostra lado a lado a lista **antes** e **depois** da ordenação.
 - Complexidade: O(n log n) em média, O(n²) no pior caso
 - Mais eficiente em listas grandes
 - Implementação com pivô na mediana
-
-## Autor(es)
-Grupo 11 - G11-Ordenacao-2026-01
