@@ -7,7 +7,7 @@
 |Matrícula | Aluno |
 | -- | -- |
 | 22/1007706  |  Elias Faria de Oliveira |
-| ? | ? |
+| 211031403 | Marcus Vinicius Cunha Dantas|
 
 ## Sobre
 
