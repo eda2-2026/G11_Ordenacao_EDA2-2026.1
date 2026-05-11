@@ -6,20 +6,6 @@ import pandas as pd
 # Página centralizada e título da aba
 st.set_page_config(page_title="Ordenação de Livros", layout="wide", initial_sidebar_state="expanded", page_icon=None)   
 
-# Estilo minimalista simples
-# st.markdown(
-#     """
-#     <style>
-#     .stApp { background: #f8fafc; color: #0f172a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
-#     .title {text-align: center;}
-#     .stButton>button {background-color: #0f172a; color: #ffffff;}
-#     .stSelectbox, .stRadio {padding: 4px 0}
-#     </style>
-#     """,
-#     unsafe_allow_html=True,
-# )
-
-
 def make_key(attr):
     def key(l):
         val = getattr(l, attr, "")

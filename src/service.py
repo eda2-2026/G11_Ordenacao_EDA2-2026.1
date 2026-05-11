@@ -1,6 +1,3 @@
-# Algoritmos de ordenação para livros
-
-# Insertion Sort
 def insertion_sort(livros, key=lambda x: x.titulo):
     # Percorre a lista de livros a partir do segundo elemento
     for i in range(1, len(livros)):

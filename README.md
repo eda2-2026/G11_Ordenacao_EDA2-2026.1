@@ -79,7 +79,13 @@ A aplicação mostra lado a lado a lista **antes** e **depois** da ordenação.
 
 ## Aplicação
 
-![web_aplication](./assets/image.png)
+### Base desordenada
+
+![desordened](./assets/desordenado.png)
+
+### Base ordenada por nome, utilizando quick sort
+
+![ordened](./assets/ordenado-quick-nome.png)
 
 ## Link da Gravação
 
