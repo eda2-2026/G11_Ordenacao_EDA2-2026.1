@@ -89,7 +89,7 @@ A aplicação mostra lado a lado a lista **antes** e **depois** da ordenação.
 
 ## Link da Gravação
 
-[Gravação](link da gravação)
+[Gravação](https://youtu.be/NgO77wnP8zo)
 
 
 ## Algoritmos Implementados
