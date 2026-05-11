@@ -15,6 +15,12 @@ Este é um projeto acadêmico desenvolvido para a disciplina **EDA2 (Estruturas 
 
 O objetivo é aprender e comparar **algoritmos de ordenação** através de uma aplicação prática que ordena uma coleção de livros por diferentes critérios (nome, ISBN, páginas, ano de publicação), utilizando dois algoritmos clássicos: **Insertion Sort** e **Quick Sort**.
 
+## Base de dados
+
+A base de dados utilizada é um dataset com aproximadamente 11 mil registros de livros com os campos: nome, isbn, páginas e ano de publicação.
+
+[Base de dados](https://www.kaggle.com/datasets/diegomariano/tabela-de-livros?resource=download)
+
 ## Estrutura do Projeto
 
 ```
