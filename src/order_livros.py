@@ -23,10 +23,13 @@ st.set_page_config(page_title="Ordenação de Livros", layout="wide", initial_si
 def make_key(attr):
     def key(l):
         val = getattr(l, attr, "")
+        # Tranforma floats em string vazia para evitar erros de comparação, já que não esperamos floats nos atributos"
+        if isinstance(val, float):
+            val = ""
         # Normaliza strings para comparação e tenta converter números
         try:
             if isinstance(val, str):
-                if attr in ("titulo", "isbn"):
+                if attr in ("titulo", "isbn", "autor"):
                     return val.lower()
                 return int(val) if val.isdigit() else val
             return val

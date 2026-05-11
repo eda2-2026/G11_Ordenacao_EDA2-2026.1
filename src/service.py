@@ -16,3 +16,20 @@ def insertion_sort(livros, key=lambda x: x.titulo):
             j -= 1
         # Insere a chave na posição correta
         livros[j + 1] = chave
+
+def quick_sort(livros, key=lambda x: x.titulo):
+    # Caso base: se a lista tem 1 ou 0 elementos, já está ordenada
+    if len(livros) <= 1:
+        return livros
+    
+    # Escolhendo o pivô (o livro do meio)
+    pivo = livros[len(livros) // 2]
+    val_pivo = key(pivo)
+    
+    # Particionamento: separando quem é menor, igual ou maior que o pivô
+    esquerda = [x for x in livros if key(x) < val_pivo]
+    meio     = [x for x in livros if key(x) == val_pivo]
+    direita  = [x for x in livros if key(x) > val_pivo]
+    
+    # Recursão: ordena os lados e junta tudo
+    return quick_sort(esquerda, key) + meio + quick_sort(direita, key)
